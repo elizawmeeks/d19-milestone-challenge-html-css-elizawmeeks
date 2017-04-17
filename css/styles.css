@@ -90,21 +90,21 @@ li {
 	height: 60px;
 }
 
-li a {
+a {
 	color: white;
 	text-decoration: none;
 }
 
-li a:visited {
+a:visited {
 	color: white;
 	text-decoration: none;
 }
 
-li a:hover {
+a:hover {
 	color: #e97f02;
 }
 
-li a:active {
+a:active {
 	color:#bd1550;
 }
 
