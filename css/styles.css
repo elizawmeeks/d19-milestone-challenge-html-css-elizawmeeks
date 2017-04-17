@@ -1,0 +1,207 @@
+/*General*/
+@import url('https://fonts.googleapis.com/css?family=Righteous|Varela|Varela+Round');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: "Varela Round", sans-serif;
+}
+
+/*Text Styling*/
+
+h2 {
+	font-family: "Varela", sans-serif;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+h1, h3, h4 {
+	font-family: 'Righteous', cursive;
+}
+
+h4 {
+	font-size: 1.2em;
+}
+
+h5 {
+	font-family:"Righteous", cursive;
+	margin: 0;
+	font-size: 2em;
+	color: #bd1550;
+	text-shadow: 2px 2px 2px #e97f02;
+}
+
+header#header {
+	margin: 150px 0;
+}
+
+h1 {
+	font-size: 5em;
+	margin: 25px 0;
+}
+
+h3 {
+	background-color: #f8ca00;
+	height: 60px;
+	margin: 0;
+	padding: 17px 30px 0;
+}
+
+section {
+	text-align: center;
+}
+
+.purple {
+	color: #490a3d;
+	padding: 0 10px;
+}
+
+.pink {
+	color: #bd1550;
+	padding: 0 10px;
+}
+
+.orange {
+	color: #e97f02;
+	padding: 0 10px;
+}
+
+/*Nav*/
+
+nav {
+	background-color: #490a3d;
+	color: white;
+	height: 60px;
+	margin-bottom: 30px
+}
+
+ul {
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	padding: 0 30px;
+	height: 60px;
+}
+
+li a {
+	color: white;
+	text-decoration: none;
+}
+
+li a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+li a:hover {
+	color: #e97f02;
+}
+
+li a:active {
+	color:#bd1550;
+}
+
+/*Profile Pic*/
+
+.profilePic {
+	height: 200px;
+	border-radius: 50%;
+	float: left;
+	position: absolute;
+	left: 10%;
+	top: 220px;
+}
+
+/*Bio*/
+
+section#bio {
+	margin-bottom: 150px;
+}
+
+/*Projects*/
+
+section#projects {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.sectionProjects {
+	background-color: #f8ca00;
+}
+
+/*Blog*/
+
+section#blog {
+	width: 90%;
+	margin: 50px auto;
+}
+
+.sectionBlog {
+	background-color: #f8ca00;
+}
+
+.sectionBlog p {
+	margin-top: 0;
+}
+
+.headerBlog {
+	color: white;
+	margin: 50px 0 0 0;
+	background-color: #490a3d;
+}
+
+.headerBlog h2 {
+	margin-bottom: 0;
+}
+
+p.lastParagraph {
+	margin: 0;
+}
+
+.footerBlog {
+	text-align: center;
+	color: black;
+}
+
+.footerBlog h4 {
+	background-color: white/* #f8ca00*/;
+	margin: 0;
+}
+
+.footerBlog p {
+	background-color:#bd1550;
+	color: white;
+	margin-top: 0;
+	border-bottom: 3px solid #e97f02;
+	border-top: 3px solid #e97f02;
+}
+
+/*Resources*/
+
+.sectionResources {
+	background-color: #f8ca00;
+	width: 90%;
+	margin: 0 auto;
+}
+
+/*footer*/
+.social {
+	height: 25px;
+}
+
+footer {
+	color: white;
+	background-color: #490a3d;
+	text-align: right;
+}
+
+footer li {
+	padding: 20px 5px;
+}
